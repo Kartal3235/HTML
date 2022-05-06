@@ -1,0 +1,22 @@
+header,footer{
+    display: flex;
+    
+}
+header{
+    justify-content: space-between;
+}
+a{
+    text-decoration:none ;
+}
+.anasayfa{
+    background-color: rgb(255, 212, 196);
+}
+.ürünler{
+    background-color: cadetblue;
+}
+.öneriler{
+    background-color: aqua;
+}
+.hakkımızda{
+    background-color: coral;
+}
