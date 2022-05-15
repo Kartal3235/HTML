@@ -1,17 +1,30 @@
 header,footer{
     display: flex;
-    
+    padding: 30px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+footer p{
+margin-top: 0%;
 }
 header{
     justify-content: space-between;
 }
 a{
     text-decoration:none ;
+    padding-right: 1,5rem;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: beige;
+
 }
 .anasayfa{
     background-color: rgb(255, 212, 196);
 }
-.ürünler{
+.personeller{
     background-color: cadetblue;
 }
 .öneriler{
@@ -20,3 +33,53 @@ a{
 .hakkımızda{
     background-color: coral;
 }
+.anasayfa img,
+.öneriler img{
+    width: 30%;
+    height: 30%;
+}
+.resimler img{
+    width: 20%;
+    height: 20%;
+}
+.resimler{
+    display: flex;
+    flex-direction: column;
+}
+.hakkımızda ul li{
+    margin-bottom: 10px;
+    background-color: bisque;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.icerik{
+    display: flex;
+    justify-content: space-between;
+ }
+.icerik form{
+background-color: burlywood;
+height: 200px;
+margin-top: 100px;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+table{
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table tr th,
+table tr td{
+    padding: 50px
+}
+
+
+
